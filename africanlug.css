@@ -1,0 +1,320 @@
+*{margin: 0;} 
+
+
+body{ 
+
+    padding-bottom: 1000px;
+
+} 
+
+.header-container{ 
+    
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-family: 'Sahitya', serif;
+    box-shadow: 2px -30px 90px;
+    padding: 20px 0;
+
+} 
+
+.header-container .logo-nav{ 
+
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 45px;
+    border-radius: 50%;
+    left: 20%; 
+
+
+} 
+
+.header-container .header-title{ 
+
+    margin-left: 20px;
+    font-family: 'Galindo', cursive;
+
+} 
+
+.header-container .header-title a{ 
+
+    text-decoration: none;
+    color: #000000;
+   
+
+} 
+
+
+.header-container .header-title:hover{
+
+
+    opacity: 0.8;
+
+}
+
+.nav-list{ 
+
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 10px;
+
+} 
+
+.nav-list li{ 
+
+    display: inline-block; 
+    padding-left: 20px;
+ 
+} 
+
+.nav-list li a { 
+
+    text-decoration: none;  
+    font-family: sans-serif;
+    font-weight: lighter;
+    
+
+} 
+
+.nav-list li a:hover{ 
+
+    border-bottom: 1px solid;
+    opacity: 0.8;
+
+} 
+
+
+ .section-container { 
+    padding-top: 50%;
+    background-color: #f1f5f8;
+    position: relative;
+    
+
+} 
+
+
+.section-container .section-content{ 
+
+    width: 100%;
+    background-color: #f1f5f8;
+
+}
+    
+
+
+.section-container .section-content img{ 
+
+    width: 43%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    border-radius: 50%;
+    transition: all 0.5s;
+
+} 
+
+.section-container img:hover,.section-container img:focus{ 
+
+     box-shadow: -5px 20px 90px #2b9348;
+
+} 
+
+.section-container .section-content .section-title{ 
+
+    position: absolute;
+    top: 200px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Sahitya', serif;
+
+} 
+
+.sep-line{ 
+
+    border-bottom: 2px solid #000000;
+    width: 50%;
+    margin: 1rem auto;
+    opacity: 0.25;
+
+} 
+
+.ads-content{ 
+
+    padding-top: 120px;
+
+} 
+
+.main-cards{  
+    
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 5rem;
+   
+
+} 
+
+.main-cards .single-card{ 
+
+    width: 50%;
+    background-color: #4361ee;
+    margin-left: 12.5px;
+    margin-right: 5px;
+    padding: 3.5rem 0;
+    transition: all 0.4s;
+}  
+
+
+.main-cards .single-card:hover, .main-cards .single-card:focus{ 
+
+    box-shadow: 1rem 1rem 10rem #4895ef;
+
+
+} 
+
+.main-cards .single-card h3{ 
+
+    margin-bottom: 0.9rem;
+
+} 
+
+.main-cards .single-card .main-icon{ 
+
+    margin-bottom: 0.9rem;
+    width: 20%;
+    border: 1px solid #fff;
+    background-color: white;
+    border-radius: 50%;
+
+} 
+
+
+.main-cards .single-card p{ 
+
+   color: #ffffff;
+    margin: 1rem 0;
+} 
+
+.main-cards .single-card a{ 
+
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid black;
+    padding: 0.5rem 2rem;
+    margin-top: 2rem;
+    transition: all 0.4s;
+
+} 
+
+.main-cards .single-card a:hover, .main-cards .single-card a:focus{ 
+
+    opacity: 0.8; 
+    background-color: #ffffff; 
+    color: #000000;
+    border: 1px solid #ffffff;
+
+} 
+
+.section-goal-container{ 
+
+    background-color: #f1f5f8;
+    margin-top: 1rem;
+
+} 
+
+.section-goal-container .goal-flex-container{ 
+
+    display: flex;  
+    justify-content: space-around;
+
+} 
+
+.section-goal-container .our-goal{ 
+
+    text-align: center;
+    padding-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 100;
+
+} 
+
+.section-goal-container .sep-goal-line{ 
+
+    border-bottom: 2px solid #000000;
+    width: 5%;
+    margin: 1rem auto;
+    opacity: 0.3;
+
+} 
+
+.section-goal-container .goal-flex-container .three-goal{ 
+
+    text-align: center;
+    padding: 9rem 0;
+
+} 
+
+
+.section-goal-container .goal-flex-container .three-goal .goal-title{ 
+
+
+    margin-top: 0.9rem;
+    font-family: sans-serif;
+
+} 
+
+
+
+
+
+main .about-us-container{ 
+    
+    width: 80%;
+    margin: 7rem auto;
+    background-color: #f1f5f8;
+    padding-bottom: 75%;
+    box-shadow: 0rem 1rem 4rem #2b9348;
+
+}
+
+main .about-us-container .about-our-vision{ 
+ 
+    padding-top: 3rem;
+    text-align: center;
+    font-weight: 100; 
+    font-family: sans-serif;
+    font-size: 25px;
+
+} 
+
+.about-us-container .about-us-content p{ 
+
+    width: 45%;
+    margin: 1rem auto;
+    border: 1px solid;
+    padding: 5rem 5rem;
+    border-radius: 0.3rem;
+    font-size: 15px; 
+    font-weight: 100; 
+    font-family: sans-serif; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
